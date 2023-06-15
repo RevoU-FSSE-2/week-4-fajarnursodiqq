@@ -1,0 +1,99 @@
+:root {
+  --primary: #010101;
+  --background: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background);
+  color: #010101;
+}
+
+.navbar {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 5%;
+  background-color: rgba(255, 255, 255);
+  border-bottom: 1px solid var(--primary);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.navbar-logo {
+  color: var(--primary);
+}
+.navbar .navbar-logo:visited {
+  color: var(#0ae7e7);
+}
+.navbar .navbar-logo:active {
+  color: var(--primary);
+}
+.navbar .navbar-logo span {
+  font-weight: 700;
+}
+
+.navbar .navbar-navigation a {
+  display: inline-block;
+  margin: 0.8rem;
+  color: var(--primary);
+}
+.navbar .navbar-navigation a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.4px;
+  border-bottom: 0.2rem solid var(--primary);
+  transform: scaleX(0);
+}
+.navbar .navbar-navigation a:hover::after {
+  transition: 0.5s;
+  transform: scaleX(0.3);
+}
+
+.navbar .navbar-hire {
+  font-weight: 700;
+  color: var(--primary);
+}
+.navbar .navbar-hire:visited {
+  color: var(#0ae7e7);
+}
+.navbar .navbar-hire:active {
+  color: var(--primary);
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero .content {
+  padding: 1.5rem 5%;
+  max-width: 60rem;
+}
+
+.hero .content-profil {
+  padding: 1.5rem 5%;
+  max-width: 60rem;
+  height: auto;
+}
+
+.hero .content-profil .photoprofil {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+}
