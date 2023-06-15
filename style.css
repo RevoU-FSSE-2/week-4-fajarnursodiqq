@@ -25,7 +25,6 @@ body {
   align-items: center;
   padding: 1.5rem 5%;
   background-color: rgba(255, 255, 255);
-  border-bottom: 1px solid var(--primary);
   position: fixed;
   top: 0;
   left: 0;
@@ -34,12 +33,6 @@ body {
 }
 
 .navbar-logo {
-  color: var(--primary);
-}
-.navbar .navbar-logo:visited {
-  color: var(#0ae7e7);
-}
-.navbar .navbar-logo:active {
   color: var(--primary);
 }
 .navbar .navbar-logo span {
@@ -60,17 +53,11 @@ body {
 }
 .navbar .navbar-navigation a:hover::after {
   transition: 0.5s;
-  transform: scaleX(0.3);
+  transform: scaleX(0.5);
 }
 
 .navbar .navbar-hire {
   font-weight: 700;
-  color: var(--primary);
-}
-.navbar .navbar-hire:visited {
-  color: var(#0ae7e7);
-}
-.navbar .navbar-hire:active {
   color: var(--primary);
 }
 
@@ -86,6 +73,25 @@ body {
   max-width: 60rem;
 }
 
+.hero .content .ugm {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+.hero .content .connect {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: var(--primary);
+}
+
+.hero .content .connect:hover {
+  background-color: rgb(1, 103, 255);
+}
+
 .hero .content-profil {
   padding: 1.5rem 5%;
   max-width: 60rem;
@@ -96,4 +102,41 @@ body {
   border-radius: 50%;
   max-width: 100%;
   height: auto;
+}
+
+.subscribe {
+  margin-top: -4rem;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe .email {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: var(--primary);
+}
+
+.subscribe .submit {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: var(--primary);
+}
+
+.subscribe .submit:hover {
+  background-color: rgb(1, 103, 255);
+}
+
+.footer {
+  text-align: center;
 }
