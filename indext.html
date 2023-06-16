@@ -5,32 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fajar Nursodiq</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
   </head>
   <body>
     <nav class="navbar">
       <a href="#home" class="navbar-logo"><span>Fajar </span>Nursodiq</a>
       <nav class="navbar-navigation">
-        <a href="https://www.linkedin.com/in/fajarnursodiqq/" target="_blank">Home</a>
-        <a href="https://www.linkedin.com/in/fajarnursodiqq/" target="_blank">About</a>
-        <a href="https://github.com/fajarnursodiqq" target="_blank">Portofolio</a>
+        <a href="https://www.linkedin.com/in/fajarnursodiqq/" target="_blank"
+          >Home</a
+        >
+        <a href="https://www.linkedin.com/in/fajarnursodiqq/" target="_blank"
+          >About</a
+        >
+        <a href="https://github.com/fajarnursodiqq" target="_blank"
+          >Portofolio</a
+        >
       </nav>
-      <a href="https://www.linkedin.com/in/fajarnursodiqq/" target="_blank" class="navbar-hire">Hire Me!</a>
+      <img src="imeges/moon.png" class="icon" id="icon" />
     </nav>
-<section class="hero" id="home">
-    <main class="content">
-        <h1>HEY!, I'm Fajar</h1>
-        <p>A Master's student in Industrial-Organizational Psychology at <a href="https://ugm.ac.id/id/" target="_blank" class="ugm">UGM</a>
-            who is currently striving to graduate and also works as hard as fuck as Performance Management Specialist in an Agritech company.
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>HEY!, I'm <span>Fajar Nursodiq</span></h1>
+        <p>
+          A Master's student in Industrial-Organizational Psychology at
+          <a href="https://ugm.ac.id/id/" target="_blank" class="ugm">UGM</a>
+          who is currently striving to graduate and also works as hard as fuck
+          as a Performance Management Specialist in an Agritech company.
         </p>
-        <a href="https://www.linkedin.com/in/fajarnursodiqq/" target="_blank" class="connect">Let's Connect</a>
-    </main>
-    <main class="content-profil">
-        <img src="fotoprofil.jpg" alt="Foto Profil" class="photoprofil">
-    </main>
-</section>
-<section class="subscribe">
-    <input class="email" type="text" name="email" placeholder="yourname@email.com" required>
-    <button class="submit" type="submit">Subscribe</button>
-</section>
-<footer class="footer">&copy; <em id="date"></em>Copyright 2023</footer>
+        <a
+          href="https://www.linkedin.com/in/fajarnursodiqq/"
+          target="_blank"
+          class="connect"
+          >Let's Connect</a
+        >
+      </main>
+      <main class="content-profil">
+        <img
+          src="imeges/fotoprofil.jpg"
+          alt="Foto Profil"
+          class="photoprofil"
+        />
+      </main>
+    </section>
+    <section class="subscribe">
+      <input
+        class="email"
+        type="text"
+        name="email"
+        placeholder="yourname@email.com"
+        required
+      />
+      <button class="submit" onclick="saySubscribe()">Subscribe</button>
+    </section>
+    <!---Masih belajar buat dipindah ke script.js-->
+    <script>
+      var icon = document.getElementById("icon");
+      icon.onclick = function () {
+        document.body.classList.toggle("darkmode");
+        if (document.body.classList.contains("darkmode")) {
+          icon.src = "imeges/sun.png";
+        } else {
+          icon.src = "imeges/moon.png";
+        }
+      };
+    </script>
+  </body>
+  <footer class="footer">&copy; <em id="date"></em>Copyright 2023</footer>
 </html>
