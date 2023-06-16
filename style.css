@@ -2,12 +2,14 @@
   --primary: #010101;
   --background: #fff;
   --eden: rgb(48, 112, 48);
+  --submit: rgb(1, 103, 255);
 }
 
 .darkmode {
   --primary: #fff;
   --background: #010101;
   --eden: rgb(48, 112, 48);
+  --submit: rgb(1, 103, 255);
 }
 
 * {
@@ -105,7 +107,7 @@ body {
 }
 
 .hero .content .connect:hover {
-  background-color: rgb(1, 103, 255);
+  background-color: var(--submit);
 }
 
 .hero .content-profil {
@@ -150,7 +152,7 @@ body {
 }
 
 .subscribe .submit:hover {
-  background-color: rgb(1, 103, 255);
+  background-color: var(--submit);
 }
 
 .footer {
