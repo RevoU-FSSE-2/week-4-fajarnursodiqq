@@ -2,6 +2,8 @@
 
 # Fajar Nursodiq Website <a href="https://fajarnursodiqq.netlify.app/">link</a>
 
+# Fajar Nursodiq BARU (MASIH PENDING) <a href="fajarlab.site">link</a>
+
 This is a simple website for showcasing the profile of Fajar Nursodiq
 
 ## Table of Contents
