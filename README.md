@@ -29,3 +29,5 @@ The main files and directories in the project are:
 - `script.js`: The JavaScript file that contains the dark mode functionality.
 
 Make sure to update the images in the `images` directory with your own profile picture and any other images you want to use.
+
+![img](imeges/1)
