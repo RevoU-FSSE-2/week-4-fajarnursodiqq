@@ -30,4 +30,49 @@ The main files and directories in the project are:
 
 Make sure to update the images in the `images` directory with your own profile picture and any other images you want to use.
 
+1. cek repo : git remote -v
+2. delete repo existing : git remote remove origin
+3. add new repository : git remote add origin "link repo new"
+4. git status
+5. git add .
+6. git commit -m 'message'
+7. git push orign main
+8. git status
+9. git add .
+10. git commit -m 'message'
+11. git rebase --continue
+12. git pull
+13. git push origin main
+
 ![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/1.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/2.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/3.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/4.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/5.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/6.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/7.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/8.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/9.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/10.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/11.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/12.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/13.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/14.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/15.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/16.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/17.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/18.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/19.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/20.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/21.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/22.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/23.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/24.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/25.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/26.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/27.png)
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/28.png)
+
+# Fajar Nursodiq Website <a href="fajarlab.site">link</a>
+
+Tapi masih pending
