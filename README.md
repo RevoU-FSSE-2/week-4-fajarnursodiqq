@@ -30,4 +30,4 @@ The main files and directories in the project are:
 
 Make sure to update the images in the `images` directory with your own profile picture and any other images you want to use.
 
-![img](imeges/1)
+![img.jpg](imeges/1.jpg)
