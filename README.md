@@ -2,7 +2,7 @@
 
 # Fajar Nursodiq NETLIFY <a href="https://fajarnursodiqq.netlify.app/">link</a>
 
-# Fajar Nursodiq BARU <a href="fajarlab.site">link</a>
+# Fajar Nursodiq BARU <a href="https://fajarlab.site">link</a>
 
 This is a simple website for showcasing the profile of Fajar Nursodiq
 
