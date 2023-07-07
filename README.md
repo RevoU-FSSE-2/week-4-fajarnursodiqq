@@ -30,4 +30,4 @@ The main files and directories in the project are:
 
 Make sure to update the images in the `images` directory with your own profile picture and any other images you want to use.
 
-![img.jpg]({https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/1.png})
+![img](https://github.com/RevoU-FSSE-2/week-4-fajarnursodiqq/blob/main/imeges/1.png)
